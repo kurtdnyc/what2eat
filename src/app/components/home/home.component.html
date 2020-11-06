@@ -1,0 +1,41 @@
+<div class="container">
+    <div id="initHeader" class="row">
+        <div class="col align-self-center">
+            <div class="prompt-container">
+                <h2>Answer some questions, and I'll tell you what to eat</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col align-self-center">
+            <div id="prompt-container" class="prompt-container">
+                <app-prompt [path]="path"></app-prompt>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col align-self-center">
+            <div id ="quiz-container" class="quiz-container">
+                <app-select [path]="path"></app-select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col align-self-center">
+            <div id="init-btn-container" class="init-btn-container">
+                <button id="init-btn" class="btn">
+                    <div class="btn-wrap">
+                        <div class="btn-text">
+                            <span>
+                                Start
+                            </span>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

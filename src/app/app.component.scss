@@ -1,0 +1,7 @@
+@import '../theme.scss';
+
+.row.bg{
+    min-height: 100vh;
+    text-align: center;
+    background: $bg;
+}
